@@ -10,9 +10,15 @@ FPS_POS = (WIDTH - 65, 5)
 TILE = 100
 
 # player settings
-player_pos = (HALF_WIDTH, HALF_HEIGHT)
+player_pos = (HALF_WIDTH - 10, HALF_HEIGHT)
 player_angle = 0
-player_speed = 2
+player_speed = 3
+
+# texture settings (1600 / 1600) 
+TEXTURE_WIDTH = 1200
+TEXTURE_HEIGHT = 1200
+TEXTURE_SCALE = TEXTURE_WIDTH // TILE
+
 
 # ray casting settings
 FOV = math.pi / 3
